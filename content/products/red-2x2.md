@@ -7,7 +7,7 @@ description: >-
   La RED 2x2 está diseñada especialmente para el sostén de aislantes y le garantiza una colocación más rápida, 100% segura y con una terminación estética superior.
 globals:
   order: 8
-  productImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-producto-rollo.png
+  productImage: images/_mg_8108.jpg
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/60-red-2x2-200m2.html
   logo: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-logo.jpg
 page:
@@ -35,8 +35,9 @@ page:
     application:
       - text: Techos de estructura metálica.
     presentation:
-      - text: 2m. x 100m - Cuadrícula de 2x2cm
-      - text: 1m. x 100m - Cuadrícula de 2x2cm
+      - text: 2m. x 100m - Cuadrícula aprox. de 1.2x1.2cm
+      - text: 1m. x 100m - Cuadrícula aprox. de 1.2x1.2cm
+      - text: Color Negro
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Resistencia por **biorientado**
@@ -44,7 +45,7 @@ page:
       la RED 2x2 Isolant presenta una alta resistencia a la deformación por
       esfuerzos de dilatación y contracción de la estructura, logrando techos
       más planos y de una estética superior.
-    benefitsImage: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-beneficio-exclusivo.jpg
+    benefitsImage: images/det_red-negra-low.png
     benefitsList:
       - text: Liviana y resistente.
       - text: Material reciclable.
