@@ -68,16 +68,10 @@ page:
           envenenantes.
       - title: Estructura de celda
         text: Cerrada
-      - title: Espesor
-        text: 10, 15 y 20 mm
-      - title: Densidad
-        text: 20-30 kg m3 (ASTM D 1622)
       - title: Conductividad Térmica de la Espuma
         text: 0.035 a 0.045 W/m°C (ASTM C518)
       - title: Permeabilidad al agua
         text: Impermeable (Dir. UEAtc.)
-      - title: Absorción del agua
-        text: 1.2% V/V (42.6% P/P) (IRAM 1582)
       - title: Permeancia al vapor de agua
         text: 0.033 g/m2hkPa (IRAM 1735 - ASTM E-96)
       - title: Aislamiento a ruidos de impacto
