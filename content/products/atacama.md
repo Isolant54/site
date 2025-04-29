@@ -6,7 +6,7 @@ description: >-
   especialmente en zonas cálidas y de altas temperaturas.
 
 
-  **ATACAMA** utiliza nanotecnología de última generación, en base a nano-esferas poliméricas expandidas que confieren excepcionales propiedades reflectivas y aislantes, especialmente de las radiaciones infrarrojas, lo cual permite evitar la absorción del calor solar.
+  **ATACAMA** utiliza tecnología de última generación, en base a microesferas poliméricas expandidas que confieren excepcionales propiedades reflectivas y aislantes, especialmente de las radiaciones infrarrojas, lo cual permite evitar la absorción del calor solar.
 globals:
   order: 2
   highlighted: true
