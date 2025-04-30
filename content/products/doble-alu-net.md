@@ -42,6 +42,7 @@ page:
     presentation:
       - text: 1,10m x 20m. (Largos a medida por más de 1000 m2).
       - text: "Espesor: 10 y 15mm."
+      - text: Solape con RAPI-TAC
     detailsImage: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
