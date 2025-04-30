@@ -47,6 +47,7 @@ page:
       - text: Red de sostén incorporada.
       - text: Solape para termo soldar.
       - text: Largos a medida sin cargo por más de 1000m2.
+      - text: Solape con RAPI-TAC
   - type: benefits
     enableBenefitsSection: true
     benefitsSubtitle: ¡No necesita malla sostén!
