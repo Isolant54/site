@@ -4,7 +4,7 @@ description: TERMOTANQUE SOLAR IS100, FÁCIL Y DURAREDO. Podes instarlo vos
   mismo, gracias a su diseño de una sola pieza.
 globals:
   order: ""
-  productImage: images/n100s-perfil-derecho-con-logo.png
+  productImage: images/termotanque-solar.png
   ecommerceLink: ""
 page:
   - type: hero
@@ -13,7 +13,7 @@ page:
         mainImageBackgroundPosition: top
         mainImage: images/instalacion-gral.-rodriguez_logo-isolant.jpg
     enableHero: true
-    slogan: ¡Metele energía!
+    slogan: Termotanque Solar IS100
     mainBenefits:
       - icon: /images/products/termo-solar/isolant-aislantes-linea-otros-usos-termo-solar-beneficio-1.svg
         text: Mantiene la temperatura del agua
@@ -88,7 +88,7 @@ page:
     enableDownloadsSection: true
     downloads:
       - Colocación Termotanque Solar IS100
-      - Flyer Termotanque Solar IS100
+      - Flyer Termotanque Solar IS 100
   - type: colocation
     enableColocationSection: false
   - type: cta
