@@ -423,7 +423,7 @@ export async function getStaticProps({ params }) {
       localesData,
       downloadsData,
       productLinesData,
-      allProductsData,
+      allProductsData
     }
   }
 }
