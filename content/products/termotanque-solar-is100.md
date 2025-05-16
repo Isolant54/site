@@ -74,7 +74,7 @@ page:
           bombas de 200 Watts, son a pedido. Consultar por formatos de
           instalación presurizando la instalación de agua caliente a la salida
           del calentador Isolant IS100.
-    detailsImage: images/n100s-perfil-izquierdo-sin-logo.png
+    detailsImage: images/termotanque-solar.png
   - type: benefits
     enableBenefitsSection: false
   - type: video
