@@ -41,7 +41,7 @@ page:
       - text: Galpones, estructuras y tinglados metálicos en general que necesiten una
           estética superior.
     presentation:
-      - text: Rollos de 1,10m x 20m.
+      - text: Rollos de 1,20m x 20m útil + 10 cm de solape
       - text: Aluminio puro en una cara y terminación blanca en otra.
       - text: "Espesor: 10mm | 15mm | 20mm."
       - text: Red de sostén incorporada.
