@@ -34,7 +34,7 @@ page:
     application:
       - text: Galpones, estructuras y tinglados metálicos en general.
     presentation:
-      - text: Rollos de 1,20m x 20m útil + 10 cm de solape (Largos a medida por más de
+      - text: Rollos de 1m x 20m útil + 10 cm de solape  (Largos a medida por más de
           1000 m2).
       - text: "Espesor: 5, 10 y 15mm."
       - text: Solapa flexible de 10 cm con autoadhesivo RAPI-TAC
