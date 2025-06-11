@@ -127,10 +127,10 @@ page:
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
     downloads:
-      - Catálogo de Industria
       - ¿Qué tipo de techo querés aislar?
       - Tríptico Industria/Vivienda
       - Volante Doble Alu NET
+      - Comparativo Doble Alu Net vs Rufi Doble Aluminio
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
