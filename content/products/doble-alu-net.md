@@ -131,6 +131,7 @@ page:
       - Tríptico Industria/Vivienda
       - Volante Doble Alu NET
       - Comparativo Doble Alu Net vs Rufi Doble Aluminio
+      - prueba
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
