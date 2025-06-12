@@ -1320,7 +1320,7 @@ collections:
       - label: "Archivo PDF"
         name: "pdf"
         widget: "file"
-        media_folder: "/images/uploads/downloads"
+        media_folder: "public/images/uploads/downloads"
         choose_url: false
         required: false
         media_library:
@@ -1329,7 +1329,7 @@ collections:
       - label: "Archivo ZIP"
         name: "zip"
         widget: "file"
-        media_folder: "/images/uploads/downloads"
+        media_folder: "public/images/uploads/downloads"
         choose_url: false
         required: false
         media_library:
