@@ -1,19 +1,22 @@
 ---
-name: Base Alfombra
-description: Nuestro **Base Alfombra** brinda mayor mullidez logrando un mayor
-  confort al andar. Además reduce ampliamente el desgaste para su alfombra, ya
-  que desancla la carpeta de la misma evitando esfuerzos de rosamiento. Está
-  compuesto por una espuma Isolant bicolor de mayor densidad con retardante de
-  llamas. Todo esto duplica la vida útil de la alfombra.<br /><br />Además toma
-  pequeños desniveles de la carpeta de terminación, logrando una terminación
-  plana y estética sin "globos".
+name: Base Alfombra Densus
+description: "**Base Alfombra Densus** está diseñada para brindar mayor mullidez
+  y confort al caminar, duplicando la vida útil de la alfombra. Su espuma bicapa
+  de alta densidad con retardante de llama es ideal para espacios de alto
+  tránsito como cines, bingos, hoteles y casinos, ya que desacopla la alfombra
+  de la carpeta, reduciendo el desgaste por fricción. Además, se adapta a
+  pequeñas imperfecciones del piso, logrando una superficie nivelada y estética,
+  sin globos ni irregularidades."
 globals:
   order: 4
   productImage: images/bajo_alfombra_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/pisos/49-base-alfombra.html
 page:
   - type: hero
-    slogan: Duplicá la vida útil **de tu alfombra**
+    slogan: |-
+      ##### **Bajo Alfombra Densus:**
+
+      Duplicá la vida útil de tu alfombra
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -29,12 +32,13 @@ page:
   - type: details
     enableDetailsSection: true
     function:
-      - text: Amortiguante acústico.
-      - text: Base niveladora.
+      - text: "Prolonga la vida útil de la alfombra. "
+      - text: "Mayor confort al caminar. "
     application:
       - text: Sobre cualquier superficie (parquet, carpetas cementicias, mosaicos,
           etc.).
-      - text: Bajo alfombras de diversos usos, funciones y lugares de bajo tránsito.
+      - text: "Material bicapa Densus apto para alto transito como: Cines, Bingos,
+          Hoteles, Casinos, etc."
     presentation:
       - text: Rollos de 1m x 20m
       - text: "Espesor: 6 mm"
@@ -42,16 +46,16 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Extiende la vida útil **de tu alfombra**
-    benefitsText: El <strong>Base para Alfombras</strong> ISOLANT®, de 6 mm de
-      espesor, prolonga la vida útil de su alfombra, brinda un mayor confort al
-      andar y es un excelente aislante acústico de ruidos de impacto.<br /><br
-      />Es un producto higiénico, resistente, impermeable, flexible, elástico y
-      de máxima vida útil.
+    benefitsText: El Base para Alfombras Densus ISOLANT®, de 6 mm de espesor,
+      prolonga la vida útil de la alfombra, ofrece mayor confort al caminar y
+      actúa como un excelente aislante acústico frente a ruidos de impacto. Es
+      un producto higiénico, resistente, impermeable, flexible y elástico,
+      diseñado para una durabilidad máxima.
     benefitsImage: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-exclusivo.jpg
     benefitsList:
-      - text: Imputrescible.
+      - text: Mantiene sus propiedades através del tiempo
       - text: Impermeable al agua y el vapor.
-      - text: Saludable. No desprende partículas.
+      - text: No desprende partículas tóxicas
   - type: video
     enableVideoSection: false
   - type: instructions
@@ -75,7 +79,7 @@ page:
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
-        text: 10, 15 y 20 mm
+        text: 6 mm
       - title: Densidad
         text: 20-30 kg m3 (ASTM D 1622)
       - title: Conductividad Térmica de la Espuma
