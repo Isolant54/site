@@ -11,6 +11,7 @@ globals:
   order: 4
   productImage: images/bajo_alfombra_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/pisos/49-base-alfombra.html
+  logo: images/bajo-piso-densus.png
 page:
   - type: hero
     slogan: |-
@@ -24,7 +25,7 @@ page:
     enableHero: true
     mainBenefits:
       - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-1.svg
-        text: Reduce los ruidos de taconeo en entre pisos
+        text: Reduce los ruidos por impacto
       - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-2.svg
         text: Mantiene su espesor a lo largo del tiempo
       - icon: /images/products/base-alfombra/isolant-aislantes-linea-pisos-base-alfombra-beneficio-3.svg
