@@ -8,7 +8,7 @@ description: >-
 globals:
   order: 8
   productImage: images/_mg_8108.jpg
-  ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/60-red-2x2-200m2.html
+  ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/102-red-2x2-100m2.html
   logo: /images/products/red-2x2/isolant-aislantes-linea-galpones-y-tinglados-red-2x2-logo.jpg
 page:
   - type: hero
