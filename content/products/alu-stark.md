@@ -23,8 +23,7 @@ page:
       - icon: /images
           /products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-2.svg
         text: Evitan la condensación
-      - icon: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-3.svg
-        text: Estética superior
+      - icon: images/rapitac-sin-recuadro.png
   - type: details
     enableDetailsSection: true
     function:
@@ -37,7 +36,7 @@ page:
       - text: "Rollos de 1m x 20m útil + 10 cm de solape "
       - text: Aluminio puro en una cara y terminación blanca en otra.
       - text: "Espesor: 5mm | 10mm | 15mm | 20mm."
-      - text: Solape con RAPI-TAC
+      - text: Con Solape Autoadhesivo RAPI-TAC
       - text: Largos a medida sin cargo por más de 1000m2
     detailsImage: /images/products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-detalle-producto.jpg
   - type: benefits
