@@ -46,7 +46,7 @@ page:
       - text: "Espesor: 10mm | 15mm | 20mm."
       - text: Red de sostén incorporada.
       - text: Largos a medida sin cargo por más de 1000m2.
-      - text: Solape con RAPI-TAC
+      - text: Con Solape Autoadhesivo RAPI-TAC
   - type: benefits
     enableBenefitsSection: true
     benefitsSubtitle: ¡No necesita malla sostén!
