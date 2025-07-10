@@ -44,12 +44,10 @@ page:
     enableBenefitsSection: true
     benefitsTitle: Sistema de unión por **termosoldado patentado**
     benefitsText: El termosoldado es la forma más efectiva y limpia de efectuar la
-      unión nuetras membranas. Es además un sistema patentado por
-      <strong>ISOLANT S.A.</strong> que evita el uso de cintas o adhesivos de
-      cualquier tipo, facilitando así la colocación y brindando una terminación
-      estética superior. Termosoldando <strong>DOBLE ALU</strong>, se logra una
-      membrana aislante continua en toda su extensión, eliminando la posibilidad
-      de filtraciones, puentes térmicos y goteo por condensación. Para realizar
+      unión nuestras membranas. Es además un sistema patentado por ISOLANT S.A.
+      En conjunto con el Solape Autoadhesivo RAPI-TAC, se logra una membrana
+      aislante continua en toda su extensión, eliminando la posibilidad de
+      filtraciones, puentes térmicos y goteo por condensación. Para realizar
       esta unión sólo se necesita una pistola de aire caliente.
     benefitsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-beneficio-exclusivo.jpg
     benefitsList:
