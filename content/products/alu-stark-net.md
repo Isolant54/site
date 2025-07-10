@@ -27,7 +27,7 @@ page:
         text: Aluminio puro y terminación blanca
       - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-1.svg
         text: Producto con red incorporada
-      - icon: images/rapitac-blanco.png
+      - icon: images/rapitac-sin-recuadro.png
         text: Solape autoadhesivo RAPITAC
   - type: details
     enableDetailsSection: true
