@@ -24,6 +24,7 @@ page:
           /products/alu-stark/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-beneficio-2.svg
         text: Evitan la condensación
       - icon: images/rapitac-sin-recuadro.png
+        text: Solape Autoadhesivo RAPITAC
   - type: details
     enableDetailsSection: true
     function:
