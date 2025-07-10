@@ -37,7 +37,7 @@ page:
       - text: Rollos de 1m x 20m útil + 10 cm de solape  (Largos a medida por más de
           1000 m2).
       - text: "Espesor: 5, 10 y 15mm."
-      - text: Solapa flexible de 10 cm con autoadhesivo RAPI-TAC
+      - text: Con Solape Autoadhesivo RAPI-TAC
     detailsImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-imagen-detalle.jpg
     patentImage: /images/products/doble-alu/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-patente.png
   - type: benefits
