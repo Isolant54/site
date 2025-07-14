@@ -1,6 +1,6 @@
 ---
 name: Rufi Doble Aluminio
-description: P﻿roximamente
+description: Sitio en construcción.
 globals:
   highlighted: false
   hidden: false
