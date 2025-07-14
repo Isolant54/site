@@ -5,5 +5,7 @@ order: 7
 color: "#cd813c"
 mainImage: images/rufi-degrade.png
 products:
-  - Doble Alu NET
+  - Rufi Aluminio
+  - Rufi Alumizada
+  - Rufi Doble Aluminio
 ---
