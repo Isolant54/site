@@ -1,5 +1,5 @@
 ---
-name: Bajo Piso Flotante Acoustic
+name: Bajo Piso Flotante con Film
 description: >-
   **Maximice la aislación acústica de su piso de madera gracias a nuestro
   sistema de "micropumping".**
