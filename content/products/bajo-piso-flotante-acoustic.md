@@ -8,8 +8,8 @@ description: >-
   Membrana con diseño acanalado, brinda máxima aislación acústica y ventilación por micro pumping. Posee un film de polietileno y solape de 7 cm de ancho.
 globals:
   order: 3
-  productImage: images/bajo-piso-flotante-acoustic-2-.png
-  logo: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-logo.jpg
+  productImage: images/bajo-piso-flotante-_low-1-.png
+  logo: ""
   ecommerceLink: https://tienda.isolant.com.ar/pisos/51-bajo-piso-flotante-acoustic.html
 page:
   - type: hero
