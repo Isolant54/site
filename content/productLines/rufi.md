@@ -9,7 +9,8 @@ order: 7
 color: "#cd813c"
 mainImage: images/rufi-degrade.png
 products:
-  - Rufi Aluminio
-  - Rufi Alumizada
-  - Rufi Doble Aluminio
+  - RUFI
+  - RUFI ALUMINIZADO
+  - RUFI ALUMINIO
+  - RUFI DOBLE ALUMINIO
 ---
