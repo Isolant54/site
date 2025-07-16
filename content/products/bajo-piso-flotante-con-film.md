@@ -1,16 +1,14 @@
 ---
 name: Bajo Piso Flotante con Film
-description: >-
-  **Maximice la aislación acústica de su piso de madera gracias a nuestro
-  sistema de "micropumping".**
-
-
-  Membrana con diseño acanalado, brinda máxima aislación acústica y ventilación por micro pumping. Posee un film de polietileno y solape de 7 cm de ancho.
+description: Membrana de espuma de polietileno de celda cerrada, de 2 mm de
+  espesor, con film de polietileno en una cara y solape de 7 cm. Actúa como base
+  niveladora y amortiguante para pisos flotantes laminados o de madera,
+  protegiendo de la humedad ascendente y aumentando la vida útil del piso.
 globals:
   order: 3
   productImage: images/bajo-piso-flotante-_low-1-.png
   logo: ""
-  ecommerceLink: https://tienda.isolant.com.ar/pisos/51-bajo-piso-flotante-acoustic.html
+  ecommerceLink: ""
 page:
   - type: hero
     slogan: Podías sentir tus pisos **de manera diferente**
@@ -29,15 +27,16 @@ page:
   - type: details
     enableDetailsSection: true
     function:
-      - text: Amortiguante acústico premium.
+      - text: Amortiguante
       - text: Base niveladora.
+      - text: Protege de la humedad
     application:
       - text: Pisos flotantes.
-      - text: Pisos de madera maciza.
+      - text: Pisos laminados de madera
     presentation:
-      - text: Rollos de 1m x 25m
-      - text: "Espesor: 3/1,5 mm"
-    detailsImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen-detalle.jpg
+      - text: Rollos de 1,07m x 20m
+      - text: "Espesor: 2 mm"
+    detailsImage: images/flotante-016.jpg
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Sistema Micro Pumping **de ventilación**
@@ -48,21 +47,23 @@ page:
       ejerce activa los canales de ventilación promoviendo el movimiento de aire
       que genera la ventilación necesaria para disipar la humedad que pudiera
       haber en el contrapiso.
-    benefitsImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-exclusivo.jpg
-    patentImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-patente.png
+    benefitsImage: ""
+    patentImage: ""
     benefitsList:
-      - text: Impermeable al agua y el vapor.
-      - text: Reduce la pérdida de calor en el ambiente en invierno.
+      - text: Barrera antihumedad gracias al solape continuo.
+      - text: Impermeable e imputrescible.
       - text: Mantiene su espesor a lo largo del tiempo.
+      - text: "Estructura de celda cerrada: no absorbe agua ni vapor."
+      - text: Reciclable y no contaminante.
+      - text: Mejora el confort al caminar.
   - type: video
     enableVideoSection: true
     video: https://www.youtube.com/watch?v=kYmErVwc5_k
   - type: instructions
-    enableInstructions: true
-    instructions:
-      - Bajo Piso Flotante Acoustic
+    enableInstructions: false
+    instructions: []
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     technicalInformationList:
       - title: Aislación a ruidos de impacto
         text: CPAcoustic 29dB promedio
@@ -102,7 +103,7 @@ page:
       - title: Permeabilidad a los rayos de luz
         text: 52-63% (Espectro fotómetro)
   - type: downloads
-    enableDownloadsSection: true
+    enableDownloadsSection: false
     downloadsTitle: Área de **descargas**
     downloads:
       - Catálogo de Pisos
@@ -117,5 +118,5 @@ page:
     technicalAssessorCtaLink: /servicios#map
   - type: cta
     ctaImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-cta-fondo.jpg
-    enableCtaSection: true
+    enableCtaSection: false
 ---
