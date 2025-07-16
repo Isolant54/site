@@ -1,5 +1,5 @@
 ---
-title: Estructura metálica sin cielorraso	
+title: Estructura metálica sin cielorraso
 order: 1
 products:
   - Atacama
@@ -9,4 +9,8 @@ products:
   - Doble Alu NET
   - Doble Alu
   - Red 2x2
+  - RUFI ALUMINIO
+  - RUFI
+  - RUFI ALUMINIZADO
+  - RUFI DOBLE ALUMINIO
 ---
