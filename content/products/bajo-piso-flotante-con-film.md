@@ -40,13 +40,13 @@ page:
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Sistema Micro Pumping **de ventilación**
-    benefitsText: Gracias a su novedoso formato acanalado, <strong>Base para Piso
-      Flotante Acoustic</strong> de ISOLANT®, colabora con la ventilación
-      necesaria del contrapiso.<br /></br />Incorporamos así la función de
-      “micro-pumping”. Al caminar sobre el piso flotante, la presión que se
-      ejerce activa los canales de ventilación promoviendo el movimiento de aire
-      que genera la ventilación necesaria para disipar la humedad que pudiera
-      haber en el contrapiso.
+    benefitsText: Gracias a su estructura de celda cerrada y su práctico film con
+      solape de 7 cm, el Bajo Piso Flotante con Film de ISOLANT ofrece una
+      barrera continua contra la humedad ascendente. Su diseño flexible actúa
+      como base niveladora y amortiguante, brindando un apoyo uniforme al piso
+      flotante y aumentando el confort al caminar. Además, protege la superficie
+      final, prolongando su vida útil y asegurando un acabado impecable por más
+      tiempo.
     benefitsImage: ""
     patentImage: ""
     benefitsList:
