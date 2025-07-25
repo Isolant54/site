@@ -75,7 +75,7 @@ page:
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
-        text: 10, 15 y 20 mm
+        text: 6 mm
       - title: Densidad
         text: 20-30 kg m3 (ASTM D 1622)
       - title: Conductividad Térmica de la Espuma
