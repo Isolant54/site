@@ -2,8 +2,8 @@
 name: Contrapiso Acoustic
 description: >-
   **Aislante acústico para entrepisos de hormigón y losas alivianadas.**
-  
-  
+
+
   **Membrana bicapa aislante de ruidos de impacto para entrepisos.** Gracias a su solape de 5cm evita la formación de puentes acústicos.
 globals:
   order: 2
@@ -30,15 +30,20 @@ page:
     function:
       - text: Aislante acústico.
     application:
-      - text: Entre la losa estructural y el contrapiso, dejando una franja de 5 a 10 cm ascendente sobre la pared.
+      - text: Entre la losa estructural y el contrapiso, dejando una franja de 5 a 10 cm
+          ascendente sobre la pared.
     presentation:
       - text: 1,05x20m (con solape)
-      - text: "Espesor: 5 mm. bicapa"
+      - text: "Espesor: 3+3 mm. bicapa"
     detailsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-imagen-detalle-producto.jpg
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Insonorización **con espesor reducido**
-    benefitsText: Por su bajo espesor, <strong>Contrapiso Flotante ACOUSTIC®</strong> no tiene mayor influencia sobre las dimensiones y alturas finales del proyecto. Es resistente a las pisadas y caídas ocasionales de herramientas en la etapa de colocación su capacidad de aislamiento acústico no se verá dañada.
+    benefitsText: Por su bajo espesor, <strong>Contrapiso Flotante
+      ACOUSTIC®</strong> no tiene mayor influencia sobre las dimensiones y
+      alturas finales del proyecto. Es resistente a las pisadas y caídas
+      ocasionales de herramientas en la etapa de colocación su capacidad de
+      aislamiento acústico no se verá dañada.
     benefitsImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-beneficio-exclusivo-imagen.jpg
     patentImage: /images/products/contrapiso-acoustic/isolant-aislantes-linea-pisos-contrapiso-acoustic-patente.png
     benefitsList:
@@ -65,7 +70,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
