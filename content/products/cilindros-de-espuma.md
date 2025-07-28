@@ -34,14 +34,21 @@ page:
       - text: Juntas de expansión de cubiertas, pavimentos, piletas, etc.
       - text: Respaldo de marcos de ventanas y hojas de vidrios de auto.
     presentation:
-      - text: Hacé
-          <ahref="/images/products/cilindros-de-espuma/isolant-aislantes-linea-otros-usos-cilindros-de-espuma-presentaciones.png"target="_blank"rel="noopenernoreferrer"class="font-bold">click
-          acá</a> para ver todas las presentaciones disponibles
+      - text: Diámetro 8 mm – Largo 1500 m
+      - text: Diámetro 10 mm – Largo 1000 m
+      - text: Diámetro 15 mm – Largo 430 m
+      - text: Diámetro 20 mm – Largo 200 m
+      - text: Diámetro 25 mm – Largo 2 m
+      - text: Diámetro 30 mm – Largo 2 m
+      - text: Diámetro 40 mm – Largo 2 m
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Absorben la compresión y dilatación de las juntas**
-    benefitsText: • Resistentes químicamente a los selladores<br />• Impermeable<br
-      />• Imputrescibles<br />• Maleables y flexiles
+    benefitsText: |-
+      • Resistentes químicamente a los selladores 
+      • Impermeable
+      • Imputrescibles
+      • Maleables y flexibles
     benefitsList:
       - text: Saludable. No desprende partículas.
       - text: Material liviano.
