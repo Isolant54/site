@@ -9,9 +9,7 @@ products:
   - Espuma
   - Espuma aluminizada
   - Espuma aluminio
-  - Alu Reforzado Exteriores
   - Tubos
   - Tubos con Aluminio
   - Isocaño
-  - Termotanque Solar IS100
 ---
