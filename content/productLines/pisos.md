@@ -8,6 +8,6 @@ products:
   - Bajo Piso PVC / SPC Densus
   - Contrapiso Acoustic
   - "Kummi "
-  - Bajo Piso Flotante Acoustic
   - Base Alfombra Densus
+  - Bajo Piso Flotante con Film
 ---
