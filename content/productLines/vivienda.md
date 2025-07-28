@@ -12,5 +12,4 @@ products:
   - TBA
   - Red 2x2
   - Sellatutti
-  - RUFI Aluminizado
 ---
