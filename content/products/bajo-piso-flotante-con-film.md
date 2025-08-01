@@ -56,9 +56,6 @@ page:
       - text: "Estructura de celda cerrada: no absorbe agua ni vapor."
       - text: Reciclable y no contaminante.
       - text: Mejora el confort al caminar.
-  - type: video
-    enableVideoSection: true
-    video: https://www.youtube.com/watch?v=kYmErVwc5_k
   - type: instructions
     enableInstructions: false
     instructions: []
