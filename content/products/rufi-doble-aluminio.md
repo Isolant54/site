@@ -3,9 +3,9 @@ name: RUFI DOBLE-ALUMINIO
 description: RUFI DOBLE ALUMINIO
 globals:
   order: 5
-  productImage: images/cedronet_low-2-.png
-  logo: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
-  ecommerceLink: https://tienda.isolant.com.ar/vivienda/65-cedro-10-net.html
+  productImage: images/rufi-10-doble-aluminio_low.png
+  logo: images/rufi-degrade.png
+  ecommerceLink: ""
 page:
   - type: hero
     slogan: ¡Aislá y dale una terminación agradable **a tus ambientes!**
