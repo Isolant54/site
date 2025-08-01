@@ -49,9 +49,7 @@ page:
     video: https://www.youtube.com/watch?v=6i-DiEpuc30
   - type: instructions
     enableInstructions: false
-    instructions:
-      - Cedro NET sobre techo de madera
-      - Cedro NET sobre techo de chapa
+    instructions: []
   - type: technicalInformation
     enableTechnicalInformation: false
     technicalInformationList:
