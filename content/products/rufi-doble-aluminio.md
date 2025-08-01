@@ -8,11 +8,11 @@ globals:
   ecommerceLink: ""
 page:
   - type: hero
-    slogan: ¡Aislá y dale una terminación agradable **a tus ambientes!**
+    slogan: ¡Aislá a un precio accesible**a tus ambientes!**
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-fondo.jpg
+        mainImage: ""
     enableHero: true
     mainBenefits:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
@@ -39,7 +39,7 @@ page:
       - text: Solape para termo soldar.
       - text: Largos a medida sin cargo por más de 1000m2.
   - type: benefits
-    enableBenefitsSection: true
+    enableBenefitsSection: false
     benefitsTitle: Aislante decorativo **para techos**
     benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
       S.A.</strong> pone a su disposición una novedosa línea de aislantes con
@@ -50,19 +50,16 @@ page:
     benefitsList:
       - text: Evitan la condensación.
       - text: Termosoldables.
-      - text: Clase RE2. Muy baja propagación de llama.
-    benefitsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-exclusivo.jpg
-    patentImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-patente.png
+    benefitsImage: ""
+    patentImage: ""
   - type: video
-    enableVideoSection: true
+    enableVideoSection: false
     video: https://www.youtube.com/watch?v=6i-DiEpuc30
   - type: instructions
-    enableInstructions: true
-    instructions:
-      - Cedro NET sobre techo de madera
-      - Cedro NET sobre techo de chapa
+    enableInstructions: false
+    instructions: []
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
