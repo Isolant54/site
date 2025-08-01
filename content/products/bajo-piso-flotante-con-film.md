@@ -39,7 +39,7 @@ page:
     detailsImage: images/flotante-016.jpg
   - type: benefits
     enableBenefitsSection: true
-    benefitsTitle: Sistema Micro Pumping **de ventilación**
+    benefitsTitle: Protección y Confort para tu Piso Flotante
     benefitsText: Gracias a su estructura de celda cerrada y su práctico film con
       solape de 7 cm, el Bajo Piso Flotante con Film de ISOLANT ofrece una
       barrera continua contra la humedad ascendente. Su diseño flexible actúa
