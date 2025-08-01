@@ -3,66 +3,55 @@ name: RUFI ALUMINIO
 description: RUFI ALUMINIO
 globals:
   order: 5
-  productImage: images/cedronet_low-2-.png
-  logo: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-logo.jpg
-  ecommerceLink: https://tienda.isolant.com.ar/vivienda/65-cedro-10-net.html
+  productImage: images/rufi-aluminio-10_low-1-.png
+  logo: images/rufi-degrade.png
+  ecommerceLink: ""
 page:
   - type: hero
-    slogan: ¡Aislá y dale una terminación agradable **a tus ambientes!**
+    slogan: ¡Aisláción a un precio más accesible!**a tus ambientes!**
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-fondo.jpg
+        mainImage: ""
     enableHero: true
     mainBenefits:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
         text: Aisle
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-2.svg
         text: Ahorre
-      - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-3.svg
-        text: Decore
+      - icon: ""
+        text: ""
   - type: details
     enableDetailsSection: true
-    detailsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-detalle-producto.jpg
+    detailsImage: ""
     function:
       - text: Aislante térmico.
       - text: Barrera de vapor.
       - text: Evita la condensación.
-      - text: Decora tus ambientes.
     application:
       - text: Techos existentes sin terminación interna.
     presentation:
-      - text: Rollos de 1,05m. x 10m.
-      - text: Aluminio puro en una cara y terminación simil madera en otra.
-      - text: "Espesor: 10mm."
-      - text: Red de sostén incorporada.
-      - text: Solape para termo soldar.
-      - text: Largos a medida sin cargo por más de 1000m2.
+      - text: "Espesor: 5mm o 10 mm."
+      - text: "10mm: Rollos de 1,05m. x 10m."
+      - text: "5mm: Rollos de 1m. x 10m."
+      - text: Aluminio puro en una cara
+      - text: 10mm con solape para termo soldar.
   - type: benefits
     enableBenefitsSection: true
-    benefitsTitle: Aislante decorativo **para techos**
-    benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
-      S.A.</strong> pone a su disposición una novedosa línea de aislantes con
-      terminación madera, fáciles de colocar para cualquiera que quiera aislar
-      su quincho, cuarto, galponcito, etc.<br /><br />ISOLANT <strong>Cedro
-      NET</strong> agrega belleza a sus techos y al mismo tiempo aislación
-      térmica, logrando ambientes estéticos y confortables.
+    benefitsTitle: Aislante accesible **para techos**
+    benefitsText: ""
     benefitsList:
       - text: Evitan la condensación.
-      - text: Termosoldables.
-      - text: Clase RE2. Muy baja propagación de llama.
-    benefitsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-exclusivo.jpg
-    patentImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-patente.png
+    benefitsImage: ""
+    patentImage: ""
   - type: video
-    enableVideoSection: true
+    enableVideoSection: false
     video: https://www.youtube.com/watch?v=6i-DiEpuc30
   - type: instructions
-    enableInstructions: true
-    instructions:
-      - Cedro NET sobre techo de madera
-      - Cedro NET sobre techo de chapa
+    enableInstructions: false
+    instructions: []
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
