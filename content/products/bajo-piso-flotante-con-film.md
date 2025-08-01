@@ -18,12 +18,12 @@ page:
         mainImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen.jpg
     enableHero: true
     mainBenefits:
-      - icon: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-1.svg
-        text: Reduce los ruidos de taconeo en entre pisos
-      - icon: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-2.svg
-        text: Canales de ventilación micro pumping
-      - icon: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-beneficio-3.svg
-        text: Solape que impide el paso de la humedad
+      - icon: ""
+        text: ""
+      - icon: ""
+        text: ""
+      - icon: ""
+        text: ""
   - type: details
     enableDetailsSection: true
     function:
