@@ -23,7 +23,7 @@ page:
         text: ""
   - type: details
     enableDetailsSection: true
-    detailsImage: ""
+    detailsImage: images/rufi_espuma_low.png
     function:
       - text: Aislante térmico.
       - text: Barrera de vapor.
