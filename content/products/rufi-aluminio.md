@@ -8,7 +8,7 @@ globals:
   ecommerceLink: ""
 page:
   - type: hero
-    slogan: ¡Aisláción a un precio más accesible!**a tus ambientes!**
+    slogan: ¡Aisláción a un precio más accesible!
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
