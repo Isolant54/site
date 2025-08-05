@@ -32,8 +32,8 @@ page:
       - text: Techos existentes sin terminación interna.
     presentation:
       - text: "Espesor: 5mm o 10 mm."
-      - text: "10mm: Rollos de 1,05m. x 10m."
-      - text: "5mm: Rollos de 1m. x 10m."
+      - text: "10mm: Rollos de 1,05m. x 20m."
+      - text: "5mm: Rollos de 1m. x 20m."
       - text: Aluminio puro en una cara
       - text: 10mm con solape para termo soldar.
   - type: benefits
