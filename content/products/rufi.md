@@ -20,7 +20,7 @@ page:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-2.svg
         text: Ahorre
   - type: details
-    enableDetailsSection: false
+    enableDetailsSection: true
     detailsImage: ""
     function:
       - text: Aislante térmico.
@@ -33,13 +33,8 @@ page:
       - text: "Espesor: 2mm, 5mm o 10mm."
   - type: benefits
     enableBenefitsSection: false
-    benefitsTitle: Aislante decorativo **para techos**
-    benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
-      S.A.</strong> pone a su disposición una novedosa línea de aislantes con
-      terminación madera, fáciles de colocar para cualquiera que quiera aislar
-      su quincho, cuarto, galponcito, etc.<br /><br />ISOLANT <strong>Cedro
-      NET</strong> agrega belleza a sus techos y al mismo tiempo aislación
-      térmica, logrando ambientes estéticos y confortables.
+    benefitsTitle: ""
+    benefitsText: ""
     benefitsList:
       - text: Evitan la condensación.
     benefitsImage: ""
