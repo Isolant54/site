@@ -41,12 +41,7 @@ page:
   - type: benefits
     enableBenefitsSection: false
     benefitsTitle: Aislante decorativo **para techos**
-    benefitsText: Respondiendo a las nuevas tendencias del mercado, <strong>ISOLANT
-      S.A.</strong> pone a su disposición una novedosa línea de aislantes con
-      terminación madera, fáciles de colocar para cualquiera que quiera aislar
-      su quincho, cuarto, galponcito, etc.<br /><br />ISOLANT <strong>Cedro
-      NET</strong> agrega belleza a sus techos y al mismo tiempo aislación
-      térmica, logrando ambientes estéticos y confortables.
+    benefitsText: ""
     benefitsList:
       - text: Evitan la condensación.
       - text: Termosoldables.
