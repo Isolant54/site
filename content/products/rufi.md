@@ -19,11 +19,9 @@ page:
         text: Aisle
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-2.svg
         text: Ahorre
-      - icon: ""
-        text: Decore
   - type: details
     enableDetailsSection: false
-    detailsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-detalle-producto.jpg
+    detailsImage: ""
     function:
       - text: Aislante térmico.
       - text: Barrera de vapor.
