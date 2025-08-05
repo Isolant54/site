@@ -28,7 +28,7 @@ page:
       - text: Evita la condensación.
     application: []
     presentation:
-      - text: Rollos de 1m. x 10m.
+      - text: Rollos de 1m. x 20m.
       - text: Aluminio puro en una cara y terminación simil madera en otra.
       - text: "Espesor: 5mm o 10mm."
   - type: benefits
