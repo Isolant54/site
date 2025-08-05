@@ -8,7 +8,7 @@ globals:
   ecommerceLink: ""
 page:
   - type: hero
-    slogan: ¡Aislá a un precio accesible**a tus ambientes!**
+    slogan: ¡Aislá a un precio accesible!
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
@@ -23,7 +23,7 @@ page:
         text: Decore
   - type: details
     enableDetailsSection: true
-    detailsImage: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-imagen-detalle-producto.jpg
+    detailsImage: ""
     function:
       - text: Aislante térmico.
       - text: Barrera de vapor.
