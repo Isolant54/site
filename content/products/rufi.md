@@ -12,7 +12,7 @@ page:
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: ""
+        mainImage: images/rufi_espuma_low.png
     enableHero: true
     mainBenefits:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
