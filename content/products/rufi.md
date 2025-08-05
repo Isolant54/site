@@ -3,7 +3,7 @@ name: RUFI
 description: RUFI
 globals:
   order: 5
-  productImage: ""
+  productImage: images/rufi_espuma_low.png
   logo: images/rufi-degrade.png
   ecommerceLink: ""
 page:
