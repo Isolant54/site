@@ -32,7 +32,7 @@ page:
     application:
       - text: Techos existentes sin terminación interna.
     presentation:
-      - text: Rollos de 1,05m. x 10m.
+      - text: Rollos de 1,05m. x 20m.
       - text: Aluminio puro en una cara y terminación simil madera en otra.
       - text: "Espesor: 10mm."
       - text: Red de sostén incorporada.
