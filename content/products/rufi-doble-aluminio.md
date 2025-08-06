@@ -8,11 +8,11 @@ globals:
   ecommerceLink: ""
 page:
   - type: hero
-    slogan: ¡Aislá a un precio accesible!
+    slogan: ¡Aislación a un precio accesible!
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: ""
+        mainImage: images/rufi_doble_aluminio_low-5-.png
     enableHero: true
     mainBenefits:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
