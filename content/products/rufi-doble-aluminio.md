@@ -1,6 +1,7 @@
 ---
-name: RUFI DOBLE-ALUMINIO
-description: RUFI DOBLE ALUMINIO
+name: RUFI DOBLE ALUMINIO
+description: Membrana de espuma termoplástica con aluminio puro en ambas caras y
+  solape para termosoldar.
 globals:
   order: 5
   productImage: images/rufi-10-doble-aluminio_low.png
