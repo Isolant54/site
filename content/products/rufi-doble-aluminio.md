@@ -26,16 +26,9 @@ page:
       - text: Aislante térmico.
       - text: Barrera de vapor.
       - text: Evita la condensación.
-      - text: Decora tus ambientes.
-    application:
-      - text: Techos existentes sin terminación interna.
+    application: []
     presentation:
       - text: Rollos de 1,05m. x 20m.
-      - text: Aluminio puro en una cara y terminación simil madera en otra.
-      - text: "Espesor: 10mm."
-      - text: Red de sostén incorporada.
-      - text: Solape para termo soldar.
-      - text: Largos a medida sin cargo por más de 1000m2.
   - type: benefits
     enableBenefitsSection: false
     benefitsTitle: Aislante decorativo **para techos**
