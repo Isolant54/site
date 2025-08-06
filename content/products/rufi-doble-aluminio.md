@@ -19,8 +19,6 @@ page:
         text: Aisle
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-2.svg
         text: Ahorre
-      - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-3.svg
-        text: Decore
   - type: details
     enableDetailsSection: true
     detailsImage: ""
