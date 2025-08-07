@@ -47,7 +47,7 @@ page:
       flotante y aumentando el confort al caminar. Además, protege la superficie
       final, prolongando su vida útil y asegurando un acabado impecable por más
       tiempo.
-    benefitsImage: ""
+    benefitsImage: images/bajo-piso-flotante-_low-1-.png
     patentImage: ""
     benefitsList:
       - text: Barrera antihumedad gracias al solape continuo.
