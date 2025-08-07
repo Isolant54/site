@@ -9,21 +9,23 @@ globals:
   productImage: images/bajo-piso-flotante-_low-1-.png
   logo: ""
   ecommerceLink: ""
+  highlighted: false
+  hidden: false
 page:
   - type: hero
-    slogan: Podías sentir tus pisos **de manera diferente**
+    slogan: Podés sentir tus pisos **de manera diferente**
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
         mainImage: /images/products/bajo-piso-flotante-acoustic/isolant-aislantes-linea-pisos-bajo-piso-flotante-acoustic-imagen.jpg
     enableHero: true
     mainBenefits:
-      - icon: ""
-        text: ""
-      - icon: ""
-        text: ""
-      - icon: ""
-        text: ""
+      - icon: images/base-niveladora.png
+        text: Base Niveladora
+      - icon: images/fácil-y-rápida-instalación.png
+        text: Fácil y rápida instalación
+      - icon: images/evita-la-humedad.png
+        text: Evita la humedad
   - type: details
     enableDetailsSection: true
     function:
