@@ -11,50 +11,51 @@ globals:
   logo: images/pilesoft_isolant_logo.png
 page:
   - type: hero
-    slogan: Decile chau **al chiflete**
+    slogan: Tu pelopincho, siempre como nueva.
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-imagen.jpg
+        mainImage: images/pilesfot_isolant.png
     enableHero: true
     mainBenefits:
       - icon: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
         text: Material impermeable e imputrescible
-      - icon: /images/products/puertelete/isolant-aislantes-linea-accesorios-puertelete-beneficio-2.svg
-        text: Evita el ingreso de polvo y mugre
+      - icon: images/prolonga-vida-útil.png
+        text: Prolonga la vida útil de tu pileta
       - icon: /images/products/puertelete/isolant-aislantes-accesorios-puertelete-beneficio-3.svg
         text: Evita infiltraciones de aire
   - type: details
     enableDetailsSection: true
     function:
-      - text: Cierre hermético para filtraciones debajo de puertas.
-      - text: Evita entrada de frío y polvo.
+      - text: Evita el deslizamiento.
+      - text: Protege su pileta de roturas.
     application:
-      - text: Apoyado en el piso, frente al filo de la puerta.
+      - text: Se coloca debajo de la pileta de lona.
     presentation:
-      - text: 95cm. x 25 mm.
-    detailsImage: images/_dsc0763.jpg
+      - text: Rollo de 1 x 20 M
+      - text: "Espesor: 5 o 10 mm"
+    detailsImage: images/pilesoft_isolant.jpg
   - type: benefits
     enableBenefitsSection: false
-    benefitsTitle: Muy fácil **instalación**
-    benefitsText: Puertelete no necesita ser fijado con clavos ni tornillos. Cortá
-      tu puertelete (podés usar una trincheta) midiendo el ancho de la puerta,
-      apoyalo en el piso, frente al filo de la puerta, y desplazalo hasta que
-      cubra la totalidad de la puerta.
-    benefitsImage: images/_mg_8101.png
+    benefitsTitle: ¿Querés que tu pileta dure más y sea más cómoda?
+    benefitsText: "Elegí PILESOFT: la base elástica y amortiguante que protege
+      contra roturas, evita el deslizamiento y asegura mayor confort en cada
+      uso."
+    benefitsImage: images/pilesoft_low-2-.png
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Reciclable. No contamina el medio ambiente.
-      - text: Material liviano.
+      - text: Material imputrescible
+      - text: Industria Argentina
   - type: video
     enableVideoSection: false
   - type: instructions
-    enableInstructions: true
+    enableInstructions: false
     pdfInstruction: /images/downloads/colocacion-puertelete.pdf
     instructions:
       - Puertelete
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     generalInformationList:
       - title: Son absolutamente impermeables
       - title: Son aislantes térmicos
