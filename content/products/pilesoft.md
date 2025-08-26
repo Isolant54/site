@@ -11,7 +11,7 @@ globals:
   logo: images/pilesoft_isolant_logo.png
 page:
   - type: hero
-    slogan: Tu pelopincho, siempre como nueva.
+    slogan: Tu pileta de lona, siempre como nueva.
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
