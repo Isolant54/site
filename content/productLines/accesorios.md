@@ -12,4 +12,5 @@ products:
   - Manta GeoTextil IS75
   - Pilesoft
   - CINTA CTBA
+  - FIXBAND CINTA BIFAZ
 ---
