@@ -104,6 +104,10 @@ page:
           (011)4658-7777/ 4654-6648."
       - text: Mantener fuera del alcance de niños y mascotas.
       - text: Producto no inflamable.
+      - text: Este producto no evita la condensación. Asegúrese de contar con una
+          barrera de vapor, una aislación térmica correcta y una adecuada
+          ventilación, siguiendo siempre las buenas prácticas y recomendaciones
+          técnicas según el tipo de construcción
   - type: downloads
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
