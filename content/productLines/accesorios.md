@@ -12,4 +12,5 @@ products:
   - Termotanque Solar IS100
   - Membrana Liquida
   - Manta GeoTextil IS75
+  - Pilesoft
 ---
