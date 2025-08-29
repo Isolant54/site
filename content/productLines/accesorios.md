@@ -11,4 +11,5 @@ products:
   - Membrana Liquida
   - Manta GeoTextil IS75
   - Pilesoft
+  - CINTA CTBA
 ---
