@@ -7,7 +7,6 @@ mainImage: /images/product-lines/accesorios.jpg
 products:
   - Sellatutti
   - Puertelete
-  - Puertelete Reforzado
   - Termo solar
   - Termotanque Solar IS100
   - Membrana Liquida
