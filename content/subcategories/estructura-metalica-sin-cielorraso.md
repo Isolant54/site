@@ -9,4 +9,7 @@ products:
   - Doble Alu NET
   - Doble Alu
   - Red 2x2
+  - RUFI
+  - RUFI ALUMINIO
+  - RUFI ALUMINIZADO
 ---
