@@ -2,8 +2,8 @@
 name: Isocaño
 description: >-
   **Aislante para caños de gran caudal a la intemperie.**
-  
-  
+
+
   Placa aislante con unión termo fusionable con pistola de calor, para abrazar y aislar caños de gran caudal.
 globals:
   order: 9
@@ -32,12 +32,18 @@ page:
     application:
       - text: Aislante para caños de gran caudal a la intemperie.
     presentation:
-      - text: Hacé <a href="/images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-presentaciones.webp" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+      - text: Consulta por todas las presentaciones disponibles
     detailsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Diseño exclusivo y **solapa termo soldable**
-    benefitsText: ISOCAÑO está diseñado especialmente para facilitar la colocación del mismo "abrazando" caños de gran caudal. Ya viene en forma de placa, con un rebaje en su lateral, para termo soldar con pistola de calor. Luego se sugiere la utilización de una cinta de aluminio apta intemperie para garantizar una unión sin filtraciones de agua ni UV.<br /><br />Además su diseño con una cara acanalada hace que al "abrazar" el caño, el material no tienda a volver sobre sí mismo, sino que complete una aislación perfecta. 
+    benefitsText: ISOCAÑO está diseñado especialmente para facilitar la colocación
+      del mismo "abrazando" caños de gran caudal. Ya viene en forma de placa,
+      con un rebaje en su lateral, para termo soldar con pistola de calor. Luego
+      se sugiere la utilización de una cinta de aluminio apta intemperie para
+      garantizar una unión sin filtraciones de agua ni UV. Además su diseño con
+      una cara acanalada hace que al "abrazar" el caño, el material no tienda a
+      volver sobre sí mismo, sino que complete una aislación perfecta.
     benefitsImage: /images/products/isocano/isolant-aislantes-linea-climatizacion-isocano-beneficio-exclusivo.jpg
     benefitsList:
       - text: Termosoldables.
@@ -55,7 +61,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
@@ -87,6 +94,7 @@ page:
     downloads:
       - Catálogo Climatización
       - Volante Climatización
+    enableDownloadsSection: true
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
