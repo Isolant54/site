@@ -31,13 +31,17 @@ page:
       - text: Evita la condensación.
     application:
       - text: Cañerías y todo tipo de tubos en interiores y exteriores.
-    presentation:
-      - text: Hacé <a href="/images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+    presentation: []
     detailsImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Evitan el **congelamiento y calentamiento de la cañería**
-    benefitsText: Aptos para permanecer a la intemperie. En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería. Se pueden colocar en cañerías existentes.
+    benefitsText: Aptos para permanecer a la intemperie. En el caso de cañerías
+      plásticas protegen el deterioro y lo aíslan térmicamente. Aumentan la
+      eficacia de los sistemas de calefacción evitando las pérdidas de energía.
+      Evitan las variaciones bruscas de temperatura, disminuyendo las
+      dilataciones y contracciones de la cañería. Se pueden colocar en cañerías
+      existentes.
     benefitsImage: /images/products/tubos-aluminio/isolant-aislantes-linea-climatizacion-tubos-aluminio-beneficio-exclusivo.jpg
     benefitsList:
       - text: Muy baja propagación de llama.
@@ -58,7 +62,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
@@ -91,6 +96,7 @@ page:
       - Catálogo Climatización
       - Volante Climatización
       - Volante Tubos con Aluminio
+    enableDownloadsSection: true
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
