@@ -1,11 +1,12 @@
 ---
+icon: /images/downloads/file.svg
+title: Flyer Atacama
 format: "Formato: PDF/ZIP"
-title: Volante Atacama
 showOnMainPage: true
+zip: images/uploads/downloads/atacama-aislante-solar-_-flyer.pdf
 productLines:
   - Vivienda
+  - Galpones y Tinglados
 type: Tríptico o Folleto
-pdf: /images/downloads/volante_atacama.pdf
-zip: /images/downloads/volante_atacama_zip.zip
-icon: /images/downloads/file.svg
+pdf: images/uploads/downloads/atacama-aislante-solar-_-flyer.pdf
 ---
