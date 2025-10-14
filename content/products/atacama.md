@@ -20,7 +20,7 @@ page:
   - heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: bottom
-        mainImage: images/atacama-1600x900-2.jpg
+        mainImage: images/atacama-1600x900-2-1.jpg
       - selectedOption: image
         mainImageBackgroundPosition: top
         mainImage: /images/products/atacama/slider-2.jpg
