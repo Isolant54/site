@@ -94,5 +94,5 @@ contactFormText: Contanos las características principales de tu obra para que
 instagramSlider:
   - image: /images/ig-30-anos_low.jpg
   - image: /images/ig-sustenta_low.jpg
-  - image: images/ig-atacama.jpg
+  - image: /images/ig-atacama.jpg
 ---
