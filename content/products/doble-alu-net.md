@@ -12,7 +12,7 @@ description: >-
 globals:
   order: 3
   highlighted: true
-  productImage: images/doble_alu_low-2-1-.png
+  productImage: /images/doble_alu_low-2-1-.png
   ecommerceLink: https://tienda.isolant.com.ar/galpones-y-tinglados/56-doble-alu-15-net.html
   logo: /images/products/doble-alu-net/isolant-aislantes-linea-galpones-y-tinglados-doble-alu-net-logo.png
 page:
