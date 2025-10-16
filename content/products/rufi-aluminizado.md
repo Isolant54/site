@@ -3,8 +3,8 @@ name: RUFI ALUMINIZADO
 description: RUFI ALUMINIZADO
 globals:
   order: 5
-  productImage: images/rufi_alumizado_bolsa_new_low.png
-  logo: images/rufi-degrade.png
+  productImage: /images/rufi_alumizado_bolsa_new_low.png
+  logo: /images/rufi-degrade.png
   ecommerceLink: ""
 page:
   - type: hero
