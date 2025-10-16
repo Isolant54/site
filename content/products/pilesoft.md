@@ -7,20 +7,20 @@ description: >-
   y lograr una superficie blanda y mullida.
 globals:
   order: 7
-  productImage: images/pilesoft_low-2-.png
-  logo: images/pilesoft_isolant_logo.png
+  productImage: /images/pilesoft_low-2-.png
+  logo: /images/pilesoft_isolant_logo.png
 page:
   - type: hero
     slogan: Tu pileta de lona, siempre como nueva.
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: images/pilesfot_isolant.png
+        mainImage: /images/pilesfot_isolant.png
     enableHero: true
     mainBenefits:
       - icon: /images/products/puertelete/isolant-aislantes-linea-otros-usos-puertelete-beneficio-1.svg
         text: Material impermeable e imputrescible
-      - icon: images/prolonga-vida-útil.png
+      - icon: /images/prolonga-vida-útil.png
         text: Prolonga la vida útil de tu pileta
       - icon: /images/products/puertelete/isolant-aislantes-accesorios-puertelete-beneficio-3.svg
         text: Evita infiltraciones de aire
@@ -34,14 +34,14 @@ page:
     presentation:
       - text: Rollo de 1 x 20 M
       - text: "Espesor: 5 o 10 mm"
-    detailsImage: images/pilesoft_isolant.jpg
+    detailsImage: /images/pilesoft_isolant.jpg
   - type: benefits
     enableBenefitsSection: false
     benefitsTitle: ¿Querés que tu pileta dure más y sea más cómoda?
     benefitsText: "Elegí PILESOFT: la base elástica y amortiguante que protege
       contra roturas, evita el deslizamiento y asegura mayor confort en cada
       uso."
-    benefitsImage: images/pilesoft_low-2-.png
+    benefitsImage: /images/pilesoft_low-2-.png
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Reciclable. No contamina el medio ambiente.
