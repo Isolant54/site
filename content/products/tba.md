@@ -10,7 +10,7 @@ description: >-
   Consultá con nuestro servicio de asesoramiento gratuito en [isolant@isolant.com.ar]("mailto:isolant@isolant.com.ar") para definir el espesor más adecuado del aislante para tu obra.
 globals:
   order: 4
-  productImage: images/tba-10_low-2-.png
+  productImage: /images/tba-10_low-2-.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/67-tba5.html
 page:
   - type: hero
