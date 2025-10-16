@@ -11,7 +11,7 @@ globals:
   order: 2
   highlighted: true
   productImage: images/atacama-20-litros-2025a_low.png
-  logo: images/logo-atacama_-aislante-solar_2025.png
+  logo: /images/logo-atacama_-aislante-solar_2025.png
   ecommerceLink: https://tienda.isolant.com.ar/vivienda/82-atacama-balde-20lt.html
   slogan: Bajá la temperatura interior de tu casa **entre 6 y 8 grados**
   productImageProportion: vertical
@@ -22,7 +22,7 @@ page:
         mainImageBackgroundPosition: top
         mainImage: /images/products/atacama/slider-2.jpg
       - selectedOption: image
-        mainImage: images/atacama-1600x900-2-1.png
+        mainImage: /images/atacama-1600x900-2-1.png
         mainImageBackgroundPosition: bottom
     ctaLink: https://www.youtube.com/watch?v=zefa_Sh5-Z4
     heroType: custom
