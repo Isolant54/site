@@ -3,8 +3,8 @@ name: RUFI
 description: RUFI
 globals:
   order: 5
-  productImage: images/rufi_espuma_low.png
-  logo: images/rufi-degrade.png
+  productImage: /images/rufi_espuma_low.png
+  logo: /images/rufi-degrade.png
   ecommerceLink: ""
 page:
   - type: hero
@@ -12,7 +12,7 @@ page:
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: images/rufi_espuma_low.png
+        mainImage: /images/rufi_espuma_low.png
     enableHero: true
     mainBenefits:
       - icon: /images/products/cedro-net/isolant-aislantes-linea-vivienda-cedro-net-beneficio-1-aisle.svg
