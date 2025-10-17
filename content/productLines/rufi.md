@@ -7,7 +7,7 @@ description: Aislá y ahorrá. RUFI es el aislante térmico económico, que resp
   en el mercado.
 order: 7
 color: "#cd813c"
-mainImage: images/rufi-degrade.png
+mainImage: /images/carrusel-400x225-rufi-1-.jpg
 products:
   - RUFI
   - RUFI ALUMINIZADO
