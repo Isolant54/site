@@ -22,7 +22,7 @@ page:
         mainImageBackgroundPosition: top
         mainImage: /images/products/atacama/slider-2.jpg
       - selectedOption: image
-        mainImage: /images/atacama-1600x900-2-1.png
+        mainImage: /images/atacama-portada-low.jpg
         mainImageBackgroundPosition: bottom
     ctaLink: https://www.youtube.com/watch?v=zefa_Sh5-Z4
     heroType: custom
