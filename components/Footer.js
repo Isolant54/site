@@ -112,6 +112,17 @@ export default function Footer({ footerTheme, footerDecorations}) {
           </a>
         </div>
       </section>
+                
+      <a
+        href="https://wa.me/5491124930555"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-3 shadow-lg transition-transform transform hover:scale-110"
+        aria-label="Contactar por WhatsApp"
+      >
+        <WhatsappIcon className="w-8 h-8 fill-current" />
+      </a>
+
     </footer>
   )
 }
