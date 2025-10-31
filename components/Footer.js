@@ -117,10 +117,10 @@ export default function Footer({ footerTheme, footerDecorations}) {
         href="https://wa.me/5491124930555"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-3 shadow-lg transition-transform transform hover:scale-110"
+        className="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-xl transition-transform transform hover:scale-110 flex items-center justify-center"
         aria-label="Contactar por WhatsApp"
       >
-        <WhatsappIcon className="w-8 h-8 fill-current" />
+          <WhatsappIcon className="w-8 h-8 text-white fill-current" />
       </a>
 
     </footer>
