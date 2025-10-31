@@ -113,7 +113,19 @@ export default function Footer({ footerTheme, footerDecorations}) {
         </div>
       </section>
                 
-      <WhatsappIcon className={FooterStyles.FloatingWhatsappIcon} />
+                
+      <a
+          href="https://wa.me/5491124930555"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 rounded-full p-4 shadow-xl transition-transform transform hover:scale-110 flex items-center justify-center"
+          aria-label="Contactar por WhatsApp"
+      >
+        <WhatsappIcon
+          style={{ width: "28px", height: "28px", fill: "#ffffff" }}
+        />
+      </a>
+
 
     </footer>
   )
