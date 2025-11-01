@@ -115,16 +115,21 @@ export default function Footer({ footerTheme, footerDecorations}) {
                 
                 
       <a
-          href="https://wa.me/5491124930555"
+          href="https://wa.me/5491124930555?text=Hola!%20Quisiera%20hacer%20una%20consulta%20🙂"
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 rounded-full p-4 shadow-xl transition-transform transform hover:scale-110 flex items-center justify-center"
+          className="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 rounded-full p-3 shadow-xl transition-transform transform hover:scale-110 flex items-center justify-center"
           aria-label="Contactar por WhatsApp"
       >
-        <WhatsappIcon
-          style={{ width: "28px", height: "28px", fill: "#ffffff" }}
-        />
+          <Image
+            src="/images/uploads/downloads/Whatsapp-Download-Free-PNG.png"
+            alt="WhatsApp"
+            width={36}
+            height={36}
+            className="object-contain"
+          />
       </a>
+
 
 
     </footer>
