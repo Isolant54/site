@@ -125,8 +125,8 @@ export default function Footer({ footerTheme, footerDecorations}) {
           <Image
             src="/images/icons/whatsapp-white.png"
             alt="WhatsApp"
-            width={28}
-            height={28}
+            width={45}
+            height={45}
             className="object-contain"
           />
       </a>
