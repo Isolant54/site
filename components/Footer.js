@@ -123,13 +123,14 @@ export default function Footer({ footerTheme, footerDecorations}) {
           aria-label="Contactar por WhatsApp"
       >
           <Image
-            src="/images/icons/whatsapp.svg"
-            alt="WhatsApp"
-            width={28}
-            height={28}
-            className="object-contain"
+              src="/images/icons/whatsapp.svg"
+              alt="WhatsApp"
+              width={28}
+              height={28}
+              className="object-contain invert brightness-0"
           />
       </a>
+
 
 
 
