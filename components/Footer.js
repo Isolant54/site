@@ -122,7 +122,7 @@ export default function Footer({ footerTheme, footerDecorations}) {
           aria-label="Contactar por WhatsApp"
       >
           <Image
-            src="/images/uploads/downloads/Whatsapp-Download-Free-PNG.png"
+            src="/images/icons/Whatsapp-Download-Free-PNG.png"
             alt="WhatsApp"
             width={36}
             height={36}
