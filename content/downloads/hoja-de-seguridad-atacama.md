@@ -1,11 +1,11 @@
 ---
-format: "Formato: PDF/ZIP"
+icon: /images/downloads/file.svg
 title: Hoja de seguridad Atacama
+format: "Formato: PDF/ZIP"
 showOnMainPage: false
+zip: /images/downloads/atacama-hoja-de-seguridad_zip.zip
 productLines:
   - Vivienda
 type: Ensayos técnicos
-pdf: /images/downloads/atacama-hoja-de-seguridad.pdf
-zip: /images/downloads/atacama-hoja-de-seguridad_zip.zip
-icon: /images/downloads/file.svg
+pdf: /images/uploads/downloads/ficha-tecnica_atacama_2025.pdf
 ---
