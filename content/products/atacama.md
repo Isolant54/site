@@ -37,7 +37,13 @@ page:
     type: hero
     enableHero: true
     ctaText: Más información
-    slogan: Aislante Solar **Atacama**
+    slogan: >-
+      Aislante Solar **Atacama**
+
+
+
+
+      `<iframe width="560" height="315" src="https://www.youtube.com/embed/zefa_Sh5-Z4?si=cjW7_ajjckjhVDyZ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
   - type: attributes
     enableAttributesSection: true
     attributesTitle: Atributos
