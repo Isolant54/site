@@ -29,10 +29,10 @@ page:
       - text: Chapas.
       - text: Respaldo en juntas de dilatación.
     presentation:
-      - text: Hacé <a
-          href="/images/products/sellatutti/isolant-aislantes-linea-vivienda-sellatutti-presentaciones.webp"
-          target="_blank" rel="noopener noreferrer" class="font-bold">click
-          acá</a> para ver todas las presentaciones disponibles
+      - text: "Lisa: Espesor: 30mm Alto: 16mm Largo: 100cm"
+      - text: "T101 Base, Cumbrera o Juego: Espesor: 30mm Alto: 16mm Largo: 101cm"
+      - text: "Sinusoidal: 30mm Alto: 28mm Largo: 103cm "
+      - text: "T98 Base, Cumbrera o Juego: 30mm Alto: 38mm Largo: 98cm "
     detailsImage: /images/products/sellatutti/isolant-aislantes-linea-otros-usos-sellatutti-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
