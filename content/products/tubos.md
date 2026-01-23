@@ -32,12 +32,19 @@ page:
     application:
       - text: Cañerías y todo tipo de tubos en interiores.
     presentation:
-      - text: Hacé <a href="/images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-presentaciones.png" target="_blank" rel="noopener noreferrer" class="font-bold">click acá</a> para ver todas las presentaciones disponibles
+      - text: "Con o sin aluminio "
+      - text: "Largo: 2M"
+      - text: "Espesor: 10mm"
+      - text: "Diámetro (interior/exterior): desde 7/27mm  hasta 64/84mm"
     detailsImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-imagen-detalle.jpg
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Evitan el **congelamiento y calentamiento de la cañería**
-    benefitsText: En el caso de cañerías plásticas protegen el deterioro y lo aíslan térmicamente. Evitan la condensación sobre la cañería. Aumentan la eficacia de los sistemas de calefacción evitando las pérdidas de energía. Evitan las variaciones bruscas de temperatura, disminuyendo las dilataciones y contracciones de la cañería.
+    benefitsText: En el caso de cañerías plásticas protegen el deterioro y lo aíslan
+      térmicamente. Evitan la condensación sobre la cañería. Aumentan la
+      eficacia de los sistemas de calefacción evitando las pérdidas de energía.
+      Evitan las variaciones bruscas de temperatura, disminuyendo las
+      dilataciones y contracciones de la cañería.
     benefitsImage: /images/products/tubos/isolant-aislantes-linea-climatizacion-tubos-beneficio-exclusivo.jpg
     benefitsList:
       - text: Material impermeable e imputrescible.
@@ -51,7 +58,7 @@ page:
     enableInstructions: true
     instructions:
       - Tubos
-  - type: technicalInformation 
+  - type: technicalInformation
     enableTechnicalInformation: true
     technicalInformationList:
       - title: Resistencia térmica
@@ -59,7 +66,8 @@ page:
       - title: Propagación de llama
         text: Clase RE2 MUY BAJA PROPAGACIÓN DE LLAMA. Aprobada por Bomberos Argentina.
       - title: Densidad de humos
-        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases envenenantes.
+        text: Nivel 1 (IRAM 11912). CO2 + H20 + calor únicamente. No desprende gases
+          envenenantes.
       - title: Estructura de celda
         text: Cerrada
       - title: Espesor
@@ -91,6 +99,7 @@ page:
     downloads:
       - Catálogo Climatización
       - Volante Climatización
+    enableDownloadsSection: true
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
