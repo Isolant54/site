@@ -60,7 +60,7 @@ page:
       - Colocación Covering y Ondusec Reflex en techos
     pdfInstruction: /images/downloads/colocacion-covering.pdf
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
