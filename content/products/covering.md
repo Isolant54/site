@@ -63,7 +63,7 @@ page:
       - Colocación Covering y Ondusec Reflex en techos
     pdfInstruction: /images/downloads/colocacion-covering.pdf
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     generalInformationList:
       - title: 100% hidrófugo
       - title: Respirable, permite el paso del vapor de agua
