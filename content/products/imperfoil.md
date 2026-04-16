@@ -34,7 +34,8 @@ page:
     application:
       - text: En paredes y techos como aislante hidrófugo y barrera de viento.
     presentation:
-      - text: 30m2 (1,15m x 25,42m)
+      - text: "Largo: 30 m"
+      - text: "Ancho: 1 m "
   - type: benefits
     enableBenefitsSection: true
     benefitsTitle: Cuadrícula **para replanteo**
