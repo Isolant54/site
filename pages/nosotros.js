@@ -15,15 +15,17 @@ import TechnicalInformation from "../components/AboutUs/TechnicalInformation";
 import Entrepreneurs from "../components/AboutUs/Entrepreneurs";
 import Policies from "../components/AboutUs/Policies";
 import Ethics from "../components/AboutUs/Ethics";
+import InstagramSlider from "../components/Home/InstagramSlider";
 
 // Library
 import { getAllCollections, getCollectionById } from '../lib/collections';
 
 // Content
-import { attributes } from "../content/about-us.md";
+import { attributes as aboutUsAttributes } from "../content/about-us.md";
+import { attributes as homepageAttributes } from "../content/homepage.md";
 
 // Classes
-import { horizontalPadding, verticalPadding } from "../classes/Spacing";
+import { fullBleedContainer } from "../classes/Layout";
 
 export default function AboutUs({ provincesData, localesData, productLinesData, productsData, downloadsData }) {
   let {
@@ -67,7 +69,9 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
     ethicsImage,
     ethicsTitle,
     ethicsText
-  } = attributes;
+  } = aboutUsAttributes;
+
+  const { instagramSlider } = homepageAttributes;
 
   const heroButton = [{
     link: heroCtaLink,
@@ -189,8 +193,25 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
         text={ethicsText}
       />
 
-      <section className="bg-gray-100">
-        <div className={`${horizontalPadding} ${verticalPadding} mx-auto container`}>
+      <section
+        className={`
+          ${fullBleedContainer}
+          relative grid lg:grid-cols-2
+          bg-white
+        `}
+        id="contacto"
+      >
+        <div
+          className="w-full h-96 md:h-screen order-last lg:order-none relative overflow-x-hidden"
+        >
+          <InstagramSlider
+            slider={instagramSlider}
+          />
+        </div>
+
+        <div
+          className="relative flex flex-col justify-center items-center"
+        >
           <div className="bitrix-form-container" />
         </div>
       </section>
