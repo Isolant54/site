@@ -1,145 +1,217 @@
-import React, { useEffect } from 'react';
-import slugify from 'react-slugify';
+// Globals
+import React, { useEffect } from "react";
 
+// Components
 import Base from "../components/Base";
+import Hero from "../components/Hero";
+import InsetCallout from "../components/Layout/InsetCallout";
+import ServiceCard from "../components/Cards/ServiceCard";
+import PhilosophyVideo from "../components/Products/Video";
+import Philosophy from "../components/AboutUs/Philosophy";
+import TimelineSlider from "../components/AboutUs/TimelineSlider";
+import OurProduct from "../components/AboutUs/OurProduct";
+import Patents from "../components/AboutUs/Patents";
+import TechnicalInformation from "../components/AboutUs/TechnicalInformation";
+import Entrepreneurs from "../components/AboutUs/Entrepreneurs";
+import Policies from "../components/AboutUs/Policies";
+import Ethics from "../components/AboutUs/Ethics";
 
-import Hero from "../components/Home/Hero";
-import HighlightedProducts from "../components/Home/HighlightedProducts";
-import Categories from "../components/Home/Categories";
-import ProductLines from "../components/Home/ProductLines";
-import TechnicalService from "../components/Home/TechnicalService";
-import CardSlider from "../components/Home/CardSlider";
-import InstagramSlider from '../components/Home/InstagramSlider';
+// Library
+import { getAllCollections, getCollectionById } from '../lib/collections';
 
-import { getAllCollections, getCollectionById } from "../lib/collections";
+// Content
+import { attributes } from "../content/about-us.md";
 
-import { attributes } from "../content/homepage.md";
+// Classes
+import { horizontalPadding, verticalPadding } from "../classes/Spacing";
 
-import { fullBleedContainer } from '../classes/Layout';
-
-export default function Homepage({ highlightedProductsData, categoriesData, productLinesData, productSelectorTypesData }) {
+export default function AboutUs({ provincesData, localesData, productLinesData, productsData, downloadsData }) {
   let {
     pageTitle,
-    sliderEnabled,
-    heroSlider,
-    highlightedProductsEnabled,
-    categoriesEnabled,
-    categoriesTitle,
-    productLinesEnabled,
-    productLinesTitle,
-    productLinesCtaText,
-    productLinesCtaLink,
-    technicalServiceEnabled,
-    technicalServiceTitle,
-    technicalServiceText,
-    technicalServiceLinkText,
-    technicalServiceLinkHref,
-    services,
-    otherServicesEnabled,
-    otherServicesTitle,
-    otherServicesSlider,
-    contactFormEnabled,
-    instagramSlider
+    heroVideoBackground,
+    heroVideoImage,
+    heroImageMobile,
+    heroTitle,
+    heroText,
+    heroCtaLink,
+    heroCtaText,
+    missionVission,
+    timelineTitle,
+    timeline,
+    productImage,
+    productTitle,
+    productText,
+    aboutUsVideo,
+    philosophyTitle,
+    philosophy,
+    patentBackgroundImage,
+    patentImage,
+    patentTitle,
+    patentText,
+    patentCtaText,
+    patentCtaLink,
+    technicalInformationImage,
+    technicalInformationTitle,
+    technicalInformationText,
+    technicalInformationFormTitle,
+    technicalInformationFormText,
+    technicalInformationCtaText,
+    technicalInformationCtaLink,
+    entrepreneursImage,
+    entrepreneursTitle,
+    entrepreneursText,
+    entrepreneursCtaText,
+    entrepreneursCtaLink,
+    policiesTitle,
+    policies,
+    ethicsImage,
+    ethicsTitle,
+    ethicsText
   } = attributes;
 
+  const heroButton = [{
+    link: heroCtaLink,
+    text: heroCtaText,
+    icon: true,
+    color: 'transparent',
+    isExternal: false,
+  }];
+
   useEffect(() => {
-    const formScript = document.createElement('script')
-    formScript.setAttribute('data-b24-form', 'inline/4/z6c8i0')
-    formScript.setAttribute('data-skip-moving', 'true')
+    const container = document.querySelector('.bitrix-form-container');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    const formScript = document.createElement('script');
+    formScript.setAttribute('data-b24-form', 'inline/4/z6c8i0');
+    formScript.setAttribute('data-skip-moving', 'true');
     formScript.innerHTML = `(function(w,d,u){
       var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
       var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-      })(window,document,'https://cdn.bitrix24.es/b26232869/crm/form/loader_4.js')`;
-    
-    const position = document.querySelector('.bitrix-form-container');
-    position.appendChild(formScript);
-  }, [])
+    })(window,document,'https://cdn.bitrix24.es/b26232869/crm/form/loader_4.js')`;
+
+    container.appendChild(formScript);
+  }, []);
 
   return (
     <Base
-      pageTitle={pageTitle}
+      activePage="professionals"
       footerTheme="dark"
-      footerDecorations={false}
+      pageTitle={pageTitle}
+      provinces={provincesData.provinces}
+      locales={localesData.locales}
+      footerDecorations={true}
       productLines={productLinesData}
     >
-      {sliderEnabled &&
-        <Hero
-          slider={heroSlider}
-        />
-      }
-      {highlightedProductsEnabled &&
-        <HighlightedProducts
-          products={highlightedProductsData}
-        />
-      }
-      {categoriesEnabled &&
-        <Categories
-          title={categoriesTitle}
-          categories={categoriesData}
-        />
-      }
-      {productLinesEnabled &&
-        <ProductLines
-          title={productLinesTitle}
-          productLines={productLinesData}
-          ctaText={productLinesCtaText}
-          ctaLink={productLinesCtaLink}
-        />
-      }
-      {technicalServiceEnabled &&
-        <TechnicalService
-          title={technicalServiceTitle}
-          text={technicalServiceText}
-          linkText={technicalServiceLinkText}
-          linkHref={technicalServiceLinkHref}
-          services={services}
-        />
-      }
-      {otherServicesEnabled &&
-        <CardSlider
-          title={otherServicesTitle}
-          services={otherServicesSlider}
-        />
-      }
-      {contactFormEnabled &&
-        <section
-          className={`
-            ${fullBleedContainer}
-            relative grid lg:grid-cols-2
-            bg-white
-          `}
-          id="contacto"
+      <Hero
+        videoBackground={heroVideoBackground}
+        imageBackground={heroVideoImage}
+        imageBackgroundMobile={heroImageMobile}
+        title={heroTitle}
+        text={heroText}
+        buttons={heroButton}
+        showForm={false}
+      />
+
+      <section className="bg-gray-100">
+        <InsetCallout
+          decorations={true}
+          gridClasses={`grid gap-8 grid-cols-1 sm:grid-cols-2`}
         >
-          <div
-            className="w-full h-96 md:h-screen order-last lg:order-none relative overflow-x-hidden"
-          >
-            <InstagramSlider
-              slider={instagramSlider}
-            />
-          </div>
-          <div
-            className="relative flex flex-col justify-center items-center"
-          >
-            <div className="bitrix-form-container" />
-          </div>
-        </section>
-      }
+          {missionVission.map((info, index) => 
+            <li key={index}>
+              <ServiceCard
+                service={info}
+                classes={`max-w-sm mx-auto`}
+              />
+            </li>
+          )}
+        </InsetCallout>
+
+        <Philosophy
+          title={philosophyTitle}
+          philosophy={philosophy}
+        />
+
+        <PhilosophyVideo
+          video={aboutUsVideo}
+        />
+
+        <TimelineSlider
+          title={timelineTitle}
+          timeline={timeline}
+        />
+      </section>
+
+      <OurProduct
+        image={productImage}
+        title={productTitle}
+        text={productText}
+      />
+
+      <Patents
+        background={patentBackgroundImage}
+        image={patentImage}
+        title={patentTitle}
+        text={patentText}
+        ctaLink={patentCtaLink}
+        ctaText={patentCtaText}
+      />
+
+      <TechnicalInformation
+        image={technicalInformationImage}
+        title={technicalInformationTitle}
+        text={technicalInformationText}
+        formTitle={technicalInformationFormTitle}
+        formText={technicalInformationFormText}
+        ctaText={technicalInformationCtaText}
+        ctaLink={technicalInformationCtaLink}
+        products={productsData}
+      />
+
+      <Entrepreneurs
+        image={entrepreneursImage}
+        title={entrepreneursTitle}
+        text={entrepreneursText}
+        ctaText={entrepreneursCtaText}
+        ctaLink={entrepreneursCtaLink}
+      />
+
+      <Policies
+        title={policiesTitle}
+        policies={policies.map(policy => downloadsData.filter(download => download.title === policy))}
+      />
+
+      <Ethics
+        image={ethicsImage}
+        title={ethicsTitle}
+        text={ethicsText}
+      />
+
+      <section className="bg-gray-100">
+        <div className={`${horizontalPadding} ${verticalPadding} mx-auto container`}>
+          <div className="bitrix-form-container" />
+        </div>
+      </section>
     </Base>
-  )
+  );
 }
 
 export async function getStaticProps() {
-  const productSelectorTypesData = getAllCollections("productSelector/types");
+  const productsData = getAllCollections("products");
   const productLinesData = getAllCollections("productLines");
-  const categoriesData = getAllCollections("categories");
-  const highlightedProductsData = attributes.highlightedProducts.map(product => getCollectionById("products", slugify(product)));
+  const provincesData = getCollectionById("geolocalization", 'provinces');
+  const localesData = getCollectionById("geolocalization", 'locales');
+  const downloadsData = getAllCollections("downloads");
 
   return {
     props: {
+      provincesData,
+      localesData,
+      productsData,
       productLinesData,
-      highlightedProductsData,
-      categoriesData,
-      productSelectorTypesData,
+      downloadsData
     },
   };
 }
