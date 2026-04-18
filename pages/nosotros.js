@@ -1,5 +1,5 @@
 // Globals
-import React from "react";
+import React, { useEffect } from "react";
 
 // Components
 import Base from "../components/Base";
@@ -15,7 +15,6 @@ import TechnicalInformation from "../components/AboutUs/TechnicalInformation";
 import Entrepreneurs from "../components/AboutUs/Entrepreneurs";
 import Policies from "../components/AboutUs/Policies";
 import Ethics from "../components/AboutUs/Ethics";
-import ContactForm from "../components/AboutUs/ContactForm";
 
 // Library
 import { getAllCollections, getCollectionById } from '../lib/collections';
@@ -67,9 +66,7 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
     policies,
     ethicsImage,
     ethicsTitle,
-    ethicsText,
-    contactFormTitle,
-    contactFormText
+    ethicsText
   } = attributes;
 
   const heroButton = [{
@@ -79,6 +76,23 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
     color: 'transparent',
     isExternal: false,
   }];
+
+  useEffect(() => {
+    const container = document.querySelector('.bitrix-form-container');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    const formScript = document.createElement('script');
+    formScript.setAttribute('data-b24-form', 'inline/4/z6c8i0');
+    formScript.setAttribute('data-skip-moving', 'true');
+    formScript.innerHTML = `(function(w,d,u){
+      var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+      var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.es/b26232869/crm/form/loader_4.js')`;
+
+    container.appendChild(formScript);
+  }, []);
 
   return (
     <Base
@@ -99,15 +113,14 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
         buttons={heroButton}
         showForm={false}
       />
+
       <section className="bg-gray-100">
         <InsetCallout
           decorations={true}
           gridClasses={`grid gap-8 grid-cols-1 sm:grid-cols-2`}
         >
           {missionVission.map((info, index) => 
-            <li
-              key={index}
-            >
+            <li key={index}>
               <ServiceCard
                 service={info}
                 classes={`max-w-sm mx-auto`}
@@ -115,23 +128,28 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
             </li>
           )}
         </InsetCallout>
+
         <Philosophy
           title={philosophyTitle}
           philosophy={philosophy}
         />
+
         <PhilosophyVideo
           video={aboutUsVideo}
         />
+
         <TimelineSlider
           title={timelineTitle}
           timeline={timeline}
         />
       </section>
+
       <OurProduct
         image={productImage}
         title={productTitle}
         text={productText}
       />
+
       <Patents
         background={patentBackgroundImage}
         image={patentImage}
@@ -140,6 +158,7 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
         ctaLink={patentCtaLink}
         ctaText={patentCtaText}
       />
+
       <TechnicalInformation
         image={technicalInformationImage}
         title={technicalInformationTitle}
@@ -150,6 +169,7 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
         ctaLink={technicalInformationCtaLink}
         products={productsData}
       />
+
       <Entrepreneurs
         image={entrepreneursImage}
         title={entrepreneursTitle}
@@ -157,26 +177,25 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
         ctaText={entrepreneursCtaText}
         ctaLink={entrepreneursCtaLink}
       />
+
       <Policies
         title={policiesTitle}
         policies={policies.map(policy => downloadsData.filter(download => download.title === policy))}
       />
+
       <Ethics
         image={ethicsImage}
         title={ethicsTitle}
         text={ethicsText}
       />
+
       <section className="bg-gray-100">
         <div className={`${horizontalPadding} ${verticalPadding} mx-auto container`}>
-          <ContactForm
-            products={productsData}
-            title={contactFormTitle}
-            text={contactFormText}
-          />
+          <div className="bitrix-form-container" />
         </div>
       </section>
     </Base>
-  )
+  );
 }
 
 export async function getStaticProps() {
