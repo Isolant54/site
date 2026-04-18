@@ -18,7 +18,7 @@ import Ethics from "../components/AboutUs/Ethics";
 import InstagramSlider from "../components/Home/InstagramSlider";
 
 // Library
-import { getAllCollections, getCollectionById } from '../lib/collections';
+import { getAllCollections, getCollectionById } from "../lib/collections";
 
 // Content
 import { attributes as aboutUsAttributes } from "../content/about-us.md";
@@ -27,7 +27,13 @@ import { attributes as homepageAttributes } from "../content/homepage.md";
 // Classes
 import { fullBleedContainer } from "../classes/Layout";
 
-export default function AboutUs({ provincesData, localesData, productLinesData, productsData, downloadsData }) {
+export default function AboutUs({
+  provincesData,
+  localesData,
+  productLinesData,
+  productsData,
+  downloadsData
+}) {
   let {
     pageTitle,
     heroVideoBackground,
@@ -73,23 +79,27 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
 
   const { instagramSlider } = homepageAttributes;
 
-  const heroButton = [{
-    link: heroCtaLink,
-    text: heroCtaText,
-    icon: true,
-    color: 'transparent',
-    isExternal: false,
-  }];
+  const heroButton = [
+    {
+      link: heroCtaLink,
+      text: heroCtaText,
+      icon: true,
+      color: "transparent",
+      isExternal: false,
+    },
+  ];
 
   useEffect(() => {
-    const container = document.querySelector('.bitrix-form-container');
+    const container = document.querySelector(".bitrix-form-container");
     if (!container) return;
 
-    container.innerHTML = '';
+    container.innerHTML = "";
+    container.style.width = "100%";
+    container.style.maxWidth = "520px";
 
-    const formScript = document.createElement('script');
-    formScript.setAttribute('data-b24-form', 'inline/4/z6c8i0');
-    formScript.setAttribute('data-skip-moving', 'true');
+    const formScript = document.createElement("script");
+    formScript.setAttribute("data-b24-form", "inline/4/z6c8i0");
+    formScript.setAttribute("data-skip-moving", "true");
     formScript.innerHTML = `(function(w,d,u){
       var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
       var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
@@ -123,14 +133,14 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
           decorations={true}
           gridClasses={`grid gap-8 grid-cols-1 sm:grid-cols-2`}
         >
-          {missionVission.map((info, index) => 
+          {missionVission.map((info, index) => (
             <li key={index}>
               <ServiceCard
                 service={info}
                 classes={`max-w-sm mx-auto`}
               />
             </li>
-          )}
+          ))}
         </InsetCallout>
 
         <Philosophy
@@ -184,7 +194,9 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
 
       <Policies
         title={policiesTitle}
-        policies={policies.map(policy => downloadsData.filter(download => download.title === policy))}
+        policies={policies.map((policy) =>
+          downloadsData.filter((download) => download.title === policy)
+        )}
       />
 
       <Ethics
@@ -198,21 +210,18 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
           ${fullBleedContainer}
           relative grid lg:grid-cols-2
           bg-white
+          items-stretch
         `}
         id="contacto"
       >
-        <div
-          className="w-full h-96 md:h-screen order-last lg:order-none relative overflow-x-hidden"
-        >
+        <div className="w-full min-h-[420px] lg:min-h-full order-last lg:order-none relative overflow-x-hidden">
           <InstagramSlider
             slider={instagramSlider}
           />
         </div>
 
-        <div
-          className="relative flex flex-col justify-center items-center"
-        >
-          <div className="bitrix-form-container" />
+        <div className="relative flex flex-col justify-start items-center py-8 lg:py-12 px-4 overflow-hidden">
+          <div className="bitrix-form-container w-full max-w-[520px]" />
         </div>
       </section>
     </Base>
@@ -222,8 +231,8 @@ export default function AboutUs({ provincesData, localesData, productLinesData, 
 export async function getStaticProps() {
   const productsData = getAllCollections("products");
   const productLinesData = getAllCollections("productLines");
-  const provincesData = getCollectionById("geolocalization", 'provinces');
-  const localesData = getCollectionById("geolocalization", 'locales');
+  const provincesData = getCollectionById("geolocalization", "provinces");
+  const localesData = getCollectionById("geolocalization", "locales");
   const downloadsData = getAllCollections("downloads");
 
   return {
@@ -232,7 +241,7 @@ export async function getStaticProps() {
       localesData,
       productsData,
       productLinesData,
-      downloadsData
+      downloadsData,
     },
   };
 }
