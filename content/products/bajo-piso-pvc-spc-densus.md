@@ -41,7 +41,7 @@ page:
     enableBenefitsSection: true
     benefitsTitle: Densidad premium **para alto tránsito**
     benefitsText: Gracias a su densidad premium, Bajo piso PVC / SPC densus de
-      ISOLANT®, soparta la carga dinámica de cualquier solado sin sufrir
+      ISOLANT®, soporta la carga dinámica de cualquier solado sin sufrir
       deformaciones con el paso del tiempo, y evitando roturas del sistema
       click.
     benefitsImage: /images/products/bajo-piso-pvc-spc-densus/isolant-aislantes-linea-pisos-bajo-piso-spc-densus-beneficio-exclusivo.jpg
