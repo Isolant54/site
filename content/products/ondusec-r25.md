@@ -1,13 +1,11 @@
 ---
 name: Ondusec R25
 description: >-
-  **Placa aislante termo acústica de rápida instalación, para
-  tabiques externos de steel framing.**
-  
-  
-  A todos los beneficios de nuestra **Ondusec** se le suma el de la aislación térmica
-  reflectiva, gracias a su terminación aluminizada en una de sus caras, haciendo
-  de este producto el ideal para lograr una aislación termo acústica superior.
+  **Placa aislante termo acústica de rápida instalación, para tabiques externos
+  de steel framing.**
+
+
+  A todos los beneficios de nuestra **Ondusec** se le suma el de la aislación térmica reflectiva, gracias a su terminación aluminizada en una de sus caras, haciendo de este producto el ideal para lograr una aislación termo acústica superior.
 globals:
   order: 4
   productImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-producto-rollo.png
@@ -44,14 +42,14 @@ page:
       - text: "Espesor: 25mm."
   - type: benefits
     enableBenefitsSection: true
-    benefitsTitle: El aislante termoacústico para tabiques y cielorrasos **de
-      más fácil instalación del mercado**
+    benefitsTitle: El aislante termoacústico para tabiques y cielorrasos **de más
+      fácil instalación del mercado**
     benefitsText: Gracias a su composición de espuma de PE de celda cerrada con dos
       caras acanaladas reduce la transmisión de ruidos entre ambientes, aisla
-      térmicamente y mantiene su forma a través del tiempo sin desprender partículas
-      nocivas.<br /><br />Nuestros ensayos indican que nuestra línea de aislantes
-      para la construcción en seco, aíslan acústicamente el equivalente a 50mm. de
-      lana de vidrio.
+      térmicamente y mantiene su forma a través del tiempo sin desprender
+      partículas nocivas.<br /><br />Nuestros ensayos indican que nuestra línea
+      de aislantes para la construcción en seco, aíslan acústicamente el
+      equivalente a 50mm. de lana de vidrio.
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Mantiene su forma y espesor a lo largo del tiempo.
@@ -72,7 +70,7 @@ page:
       - Colocación de Ondusec Reflex para Steel Framing - EIFS
     pdfInstruction: /images/downloads/colocacion-ondusec.pdf
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
@@ -129,10 +127,7 @@ page:
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
     downloads:
-      - Catálogo Construcción en Seco
-      - Díptico Steel Framing
       - Volante Ondusec y Ondusec Reflex
-      - ¿Qué tipo de techo querés aislar?
   - type: colocation
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
