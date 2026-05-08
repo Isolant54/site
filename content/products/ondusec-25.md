@@ -8,7 +8,7 @@ description: >-
   **Ondusec** es el aislante termo acústico para tabiques y cielorrasos de construcción en seco de más fácil instalación del mercado. Gracias a su composición de espuma de PE de celda cerrada con dos caras acanaladas reduce la transmisión de ruidos entre ambientes, equiparando la aislación acústica de más de 50mm de lana de vidrio. Además aisla térmicamente y mantiene su forma a través del tiempo sin desprender partículas nocivas.
 globals:
   order: 2
-  productImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-producto-rollo.png
+  productImage: /images/_mg_7933-copia.jpg
   logo: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-logo.webp
   ecommerceLink: https://tienda.isolant.com.ar/construccion-en-seco/76-ondusec.html
 page:
