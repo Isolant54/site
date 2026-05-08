@@ -28,7 +28,7 @@ page:
         text: Se corta con trincheta o troquel cada 40/60 cm.
   - type: details
     enableDetailsSection: true
-    detailsImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen-detalle.jpg
+    detailsImage: /images/2022-lobos-54-2-.jpg
     function:
       - text: Aislante acústico.
       - text: Aislante térmico.
@@ -52,7 +52,7 @@ page:
       - text: "Material sano: No desprende partículas."
       - text: Mantiene su forma y espesor a lo largo del tiempo.
       - text: Material liviano.
-    benefitsImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-beneficio-exclusivo.jpg
+    benefitsImage: /images/_mg_7938-copia.jpg
     patentImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-patente.png
   - type: video
     enableVideoSection: true
