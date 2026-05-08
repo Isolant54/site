@@ -1,16 +1,11 @@
 ---
 name: Ondusec 70
 description: >-
-  **Placa aislante térmico de rápida instalación, para tabiques
-  internos de construcción en seco / drywall.**
-  
-  
-  **Ondusec** es el aislante térmico para tabiques y cielorrasos
-  de construcción en seco de más fácil instalación del mercado. Gracias a su
-  composición de espuma de PE de celda cerrada con dos caras acanaladas reduce
-  la transmisión de ruidos entre ambientes, equiparando la aislación acústica de
-  más de 50mm de lana de vidrio. Además aísla térmicamente y mantiene su forma a
-  través del tiempo sin desprender partículas nocivas.
+  **Placa aislante térmico de rápida instalación, para tabiques internos de
+  construcción en seco / drywall.**
+
+
+  **Ondusec** es el aislante térmico para tabiques y cielorrasos de construcción en seco de más fácil instalación del mercado. Gracias a su composición de espuma de PE de celda cerrada con dos caras acanaladas reduce la transmisión de ruidos entre ambientes, equiparando la aislación acústica de más de 50mm de lana de vidrio. Además aísla térmicamente y mantiene su forma a través del tiempo sin desprender partículas nocivas.
 globals:
   order: 1
   highlighted: true
@@ -48,10 +43,10 @@ page:
     enableBenefitsSection: true
     benefitsTitle: Exclusivo troquel a **40cm y 60cm**
     benefitsText: Gracias a su troquel a 40cm y 60cm, correspondiente a la
-      separación entre montantes del sistema constructivo, ONDUSEC es el aislante de
-      más rápida y fácil colocación para construcción en seco. Esto no solo reduce
-      los tiempos de colocación, sino que también permite optimizar las medidas del
-      aislante al máximo.
+      separación entre montantes del sistema constructivo, ONDUSEC es el
+      aislante de más rápida y fácil colocación para construcción en seco. Esto
+      no solo reduce los tiempos de colocación, sino que también permite
+      optimizar las medidas del aislante al máximo.
     benefitsList:
       - text: "Material sano: No desprende partículas."
       - text: Mantiene su forma y espesor a lo largo del tiempo.
@@ -106,13 +101,10 @@ page:
       - title: Este producto no es apto intemperie ni se puede colocar sin un cielorraso
           que lo proteja de la reflexión indirecta de los rayos UV
   - type: downloads
-    enableDownloadsSection: false
+    enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
     downloads:
-      - Catálogo Construcción en Seco
       - Volante Ondusec y Ondusec Reflex
-      - Díptico Steel Framing
-      - ¿Qué tipo de techo querés aislar?
   - type: colocation
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
     colocationTitle: ¿No tenés quién te coloque **nuestros aislantes?**
