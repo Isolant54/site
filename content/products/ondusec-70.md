@@ -28,7 +28,7 @@ page:
         text: Se corta con trincheta o troquel cada 40/60 cm.
   - type: details
     enableDetailsSection: true
-    detailsImage: /images/products/ondusec/isolant-aislantes-linea-construccion-en-seco-ondusec-imagen-detalle.jpg
+    detailsImage: /images/ondusec.png
     function:
       - text: Aislante acústico.
       - text: Aislante térmico.
