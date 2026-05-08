@@ -65,7 +65,7 @@ page:
       - Colocación para cielorrasos de placa de yeso Ondusec
     pdfInstruction: /images/downloads/colocacion-ondusec.pdf
   - type: technicalInformation
-    enableTechnicalInformation: true
+    enableTechnicalInformation: false
     technicalInformationList:
       - title: Resistencia térmica
         text: 0.23 m².K/w
