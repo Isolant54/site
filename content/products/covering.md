@@ -115,11 +115,7 @@ page:
     enableDownloadsSection: true
     downloadsTitle: Área de **descargas**
     downloads:
-      - Catálogo Construcción en Seco
       - Díptico Covering
-      - Díptico Steel Framing
-      - Volante Ondusec y Ondusec Reflex
-      - ¿Qué tipo de techo querés aislar?
   - type: colocation
     enableColocationSection: true
     colocationImage: /images/owners/homepage/isolant-aislantes-duenos-e-inquilinos-isoplus-colocation.jpg
