@@ -28,7 +28,7 @@ page:
         text: Se corta con trincheta o troquel cada 40/60 cm.
   - type: details
     enableDetailsSection: true
-    detailsImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-imagen-detalle.jpg
+    detailsImage: /images/2025-ondusec-azul-.png
     function:
       - text: Aislante acústico.
       - text: Aislante térmico.
@@ -54,7 +54,7 @@ page:
       - text: "Material sano: No desprende partículas."
       - text: Mantiene su forma y espesor a lo largo del tiempo.
       - text: Material liviano.
-    benefitsImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-beneficio-exclusivo.jpg
+    benefitsImage: /images/aislante_ondusec_consutrucciónenseco_isolant_low.png
     patentImage: /images/products/ondusec-reflex/isolant-aislantes-linea-construccion-en-seco-ondusec-reflex-patente.png
   - type: video
     enableVideoSection: true
