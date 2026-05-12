@@ -30,6 +30,7 @@ page:
     application: []
     presentation:
       - text: Rollos de 1,05m. x 20m.
+      - text: Doble cara de aluminio
   - type: benefits
     enableBenefitsSection: false
     benefitsTitle: Aislante decorativo **para techos**
