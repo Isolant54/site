@@ -29,7 +29,7 @@ page:
     application: []
     presentation:
       - text: Rollos de 1m. x 20m.
-      - text: Aluminio puro en una cara y terminación simil madera en otra.
+      - text: Una cara aluminizada.
       - text: "Espesor: 5mm o 10mm."
   - type: benefits
     enableBenefitsSection: false
