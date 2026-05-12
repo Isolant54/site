@@ -28,8 +28,7 @@ page:
       - text: Aislante térmico.
       - text: Barrera de vapor.
       - text: Evita la condensación.
-    application:
-      - text: Techos existentes sin terminación interna.
+    application: []
     presentation:
       - text: "Espesor: 5mm o 10 mm."
       - text: "10mm: Rollos de 1,05m. x 20m."
