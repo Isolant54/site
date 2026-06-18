@@ -11,16 +11,10 @@ page:
     heroImage:
       - selectedOption: image
         mainImageBackgroundPosition: top
-        mainImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen.jpg
+        mainImage: /images/logo-tafel-chama-aislante-01.png
     enableHero: false
-    slogan: Tu industria con la terminación **de un shopping**
-    mainBenefits:
-      - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-2.svg
-        text: Aluminio puro y terminación blanca
-      - icon: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-beneficio-1.svg
-        text: Producto con red incorporada
-      - icon: images/rapitac-sin-recuadro.png
-        text: Solape autoadhesivo RAPITAC
+    slogan: "**Página en construcción**"
+    mainBenefits: []
   - type: details
     enableDetailsSection: false
     detailsImage: /images/products/alu-stark-net/isolant-aislantes-linea-galpones-y-tinglados-alu-stark-net-imagen-producto.jpg
