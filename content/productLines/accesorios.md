@@ -13,4 +13,5 @@ products:
   - Pilesoft
   - CINTA CTBA
   - FIXBAND CINTA BIFAZ
+  - Ecovarilla
 ---
